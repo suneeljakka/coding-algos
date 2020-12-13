@@ -4,6 +4,7 @@ class solution(object):
         res = []
 
         def helper(inpstr, level, slate):
+            print(slate)
             if level == len(inpstr):
                 res.append("".join(slate))
                 return
@@ -25,4 +26,4 @@ class solution(object):
 
 
 sol = solution()
-print(sol.lettercasepermutewithmutable784("abc1"))
+print(sol.lettercasepermutewithmutable784("abc"))
