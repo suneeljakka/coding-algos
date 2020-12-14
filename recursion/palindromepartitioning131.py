@@ -30,5 +30,6 @@ def palindromepartitioning131(s):
     helper(s, 0, len(s))
     printpartitions()
 
+# abracadabra
 if __name__ == "__main__":
-    palindromepartitioning131("abracadabra")
+    palindromepartitioning131("aa")
